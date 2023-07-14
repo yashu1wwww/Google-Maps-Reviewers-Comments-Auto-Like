@@ -3,11 +3,9 @@ Google Maps Reviewers Comments Auto-Like using selenium with python in localhost
 
 https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
-#Watch up to 3 minutes and 46 seconds, and then remain in the remaining part copying the part of the script and save it as like.py. The script is used to automatically like a particular YouTube video with multiple accounts
+#Watch up to 3 minutes and 46 seconds, and then remain in the remaining part copying the part of the script and save it as like.py. 
 
-in map.py 20th line with which school,place etc..
-
-you want auto rating replace it and in 33 line replace with comment...
+in map.py 22th line with which school,place etc..
 
 First, open Chrome file location In my case, the Chrome location(use start in: path) is
 
@@ -25,7 +23,7 @@ to open Chrome with remote debugging enabled. In my case, the command was
 
 chrome.exe --remote-debugging-port=8080 --user-data-dir="C:\Users\Hp\Desktop\Bots\Chromedriver\Localhost"
 
-then new terminal in that folder and enter map.py (letter l not one)
+then new terminal in that folder and enter like.py (letter l not one)
 
 After opening Chrome, paste the following two lines of code from the script into the command prompt and hit enter. This will open the google map URL in Chrome, automatically...
 
