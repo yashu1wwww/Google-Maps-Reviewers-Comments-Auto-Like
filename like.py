@@ -28,41 +28,12 @@ driver.find_element(By.CSS_SELECTOR, "#QA0Szd > div > div > div.w6VYqd > div:nth
 
 time.sleep(6)
 
-#its only like the starting 8 reviewers like button
+time.sleep(6)
 
-driver.find_element_by_xpath('/html/body/div[3]/div[9]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[8]/div[1]/div/div/div[4]/div[4]/button[1]').click() #1st like
+like_buttons = driver.find_elements_by_class_name("GBkF3d ")
 
-time.sleep(3)
+# Click on each like button
+for button in like_buttons:
+    button.click()
 
-driver.find_element(By.XPATH, '/html/body/div[3]/div[9]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[8]/div[4]/div/div/div[4]/div[4]/button[1]').click() #2nd
-
-time.sleep(3)
-
-driver.find_element(By.XPATH, 'html/body/div[3]/div[9]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[8]/div[7]/div/div/div[4]/div[4]/button[1]').click() #3rd
-
-time.sleep(3)
-
-driver.find_element(By.XPATH, '/html/body/div[3]/div[9]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[8]/div[10]/div/div/div[4]/div[4]/button[1]').click() #4th
-
-time.sleep(3)
-    
-driver.find_element(By.XPATH, '/html/body/div[3]/div[9]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[8]/div[13]/div/div/div[4]/div[4]/button[1]').click() #5th
-    
-time.sleep(3)
-    
-driver.find_element(By.XPATH, '/html/body/div[3]/div[9]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[8]/div[16]/div/div/div[4]/div[4]/button[1]').click() #6th
-   
-time.sleep(3)
-    
-driver.find_element(By.XPATH, '/html/body/div[3]/div[9]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[8]/div[19]/div/div/div[4]/div[4]/button[1]').click() #7th
-
-time.sleep(3)
-    
-driver.find_element(By.XPATH, '/html/body/div[3]/div[9]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[8]/div[22]/div/div/div[4]/div[4]/button[1]').click() #8th
-     
-time.sleep(5) 
-
-
-
-
-
+time.sleep(50)
