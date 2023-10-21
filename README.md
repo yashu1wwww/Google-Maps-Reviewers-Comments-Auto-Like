@@ -1,10 +1,6 @@
 # Google-Maps-Reviewers-Comments-Auto-Like.
 Google Maps Reviewers Comments Auto-Like using selenium with python on localhost
 
-👉Google map reviewers comment like video
-
-https://youtu.be/ualUiduWT1Y
-
 https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
 #Watch up to 3 minutes and 46 seconds, and then remain in the remaining part copying the part of the script and save it as like.py. 
