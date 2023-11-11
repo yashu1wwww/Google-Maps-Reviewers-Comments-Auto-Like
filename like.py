@@ -9,7 +9,7 @@ import time
 import random
 
 option = webdriver.ChromeOptions()
-option.add_experimental_option("debuggerAddress","localhost:8080")
+option.add_experimental_option("debuggerAddress","localhost:9222")
 driver = webdriver.Chrome(options=option)
 
 time.sleep(2)
@@ -19,7 +19,7 @@ driver.get("https://www.google.com/maps/@12.9531904,77.6142848,12z?entry=ttu")
 time.sleep(3)
 
 search_box = driver.find_element_by_name("q")
-search_box.send_keys("google") #replace with which you want like reviewers comment
+search_box.send_keys("Sydney Airport (SYD), Mascot NSW, Australia") #replace with which you want like reviewers comment..
 search_box.send_keys(Keys.RETURN)
     
 time.sleep(7)
