@@ -6,7 +6,7 @@ Google Maps Reviewers Comments Auto-Like using selenium with python on localhost
 
 https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
-#Watch up to 3 minutes and 46 seconds, and then remain in the remaining part copying the part of the script and save it as like.py. 
+# Watch up to 3 minutes and 46 seconds, and then remain in the remaining part in the code 
 
 in map.py 22th line with which school,place etc..
 
