@@ -28,8 +28,6 @@ driver.find_element(By.CSS_SELECTOR, "#QA0Szd > div > div > div.w6VYqd > div:nth
 
 time.sleep(6)
 
-time.sleep(6)
-
 like_buttons = driver.find_elements_by_class_name("GBkF3d ")
 
 # Click on each like button
